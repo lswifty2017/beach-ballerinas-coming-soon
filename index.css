@@ -1,0 +1,14 @@
+@import "./styles/styles-mobile.css";
+@import "./styles/styles-tablet.css";
+@import "./styles/styles-desktop.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", "Montaga", sans-serif;
+  font-size: 16px;
+  color: #5b5b5b;
+}
