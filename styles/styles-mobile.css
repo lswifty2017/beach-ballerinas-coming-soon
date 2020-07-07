@@ -55,6 +55,7 @@ form {
   font-size: inherit;
   display: flex;
   flex-direction: column;
+  padding-bottom: 16px;
 }
 
 textarea {
