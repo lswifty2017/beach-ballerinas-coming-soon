@@ -120,11 +120,22 @@
             method="POST"
             name="”EmailForm”"
           >
-            <input type="text" name="name" placeholder="Your Name" />
-            <input type="text" name="email" placeholder="Your Email" />
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              label="name-input"
+            />
+            <input
+              type="text"
+              name="email"
+              placeholder="Your Email"
+              label="email-input"
+            />
             <input
               type="text"
               name="phoneNumber"
+              label="phone-number-input"
               placeholder="Your Mobile Number"
             />
 
@@ -132,6 +143,7 @@
               name="message"
               rows="6"
               cols="20"
+              label="message-input"
               placeholder="Message"
             ></textarea>
             <input type="submit" value="Submit" />
