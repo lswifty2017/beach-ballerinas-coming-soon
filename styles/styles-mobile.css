@@ -18,6 +18,7 @@ h3 {
 }
 
 input {
+  -webkit-appearance: none;
   margin-bottom: 16px;
   font-family: inherit;
   border: 1px solid #eacdc2;
@@ -47,11 +48,13 @@ input[type="submit"]:focus {
 }
 
 form {
+  -webkit-appearance: none;
   display: flex;
   flex-direction: column;
 }
 
 textarea {
+  -webkit-appearance: none;
   font-family: inherit;
   margin-bottom: 20px;
   border-radius: 10px;
